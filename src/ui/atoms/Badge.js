@@ -12,9 +12,10 @@ const BadgeWrapper = styled.span`
   background: ${props => (props.color === colors.purple ? Colors.brand_primary : Colors.neutral_grey)};
   margin-right: 8px;
   padding: 4px 8px;
-  border-radius: 12px;
+  border-radius: 22px;
   color: white;
   font-family: sans-serif;
+  font-size: 12px;
 `;
 
 const Badge = props => {
