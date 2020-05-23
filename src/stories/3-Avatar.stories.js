@@ -1,5 +1,5 @@
 import React from "react";
-import Avatar, { sizes } from "../ui/atoms/Avatar";
+import Avatar from "../ui/atoms/Avatar";
 
 export default {
   title: "Avatar",
@@ -26,6 +26,15 @@ export const Large = () => (
     uuid="992dd0b4-a5ca-4fff-b3ce-c64ea2d5f808"
     username="Squeezzielive"
     size="large"
+  />
+);
+
+export const Status = () => (
+  <Avatar
+    uuid="992dd0b4-a5ca-4fff-b3ce-c64ea2d5f808"
+    username="Squeezzielive"
+    size="large"
+    status="online"
   />
 );
 

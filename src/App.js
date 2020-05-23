@@ -9,11 +9,13 @@ export default function App() {
         uuid="992dd0b4-a5ca-4fff-b3ce-c64ea2d5f808"
         username="Squeezzielive"
         size="small"
+        status="online"
       />
       <Avatar
         uuid="992dd0b4-a5ca-4fff-b3ce-c64ea2d5f808"
         username="Squeezzielive"
         size="medium"
+        status="absent"
       />
       <Avatar
         uuid="992dd0b4-a5ca-4fff-b3ce-c64ea2d5f808"
